@@ -1,10 +1,5 @@
 <?php
-    session_start();
-
-    $_SESSION["username"] = "Shenan"; 
-
-    session_unset();
-    session_destroy();
+    require_once 'config.php';
 ?>
 
 <html lang="en">
