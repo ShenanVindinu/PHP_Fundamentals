@@ -2,6 +2,9 @@
     session_start();
 
     $_SESSION["username"] = "Shenan";
+    unset($_SESSION["username"]); // this uset all the session data
+
+    session_destroy("username")
 ?>
 
 <html lang="en">
