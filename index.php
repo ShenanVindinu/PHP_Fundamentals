@@ -1,10 +1,10 @@
 <?php
     session_start();
 
-    $_SESSION["username"] = "Shenan";
-    unset($_SESSION["username"]); // this uset all the session data
+    $_SESSION["username"] = "Shenan"; 
 
-    session_destroy("username")
+    session_unset();
+    session_destroy();
 ?>
 
 <html lang="en">
